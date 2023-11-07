@@ -1,0 +1,13 @@
+{
+  "name": "my-jobs",
+  "version": "1.0.0",
+
+  "dependencies": {
+    "cross-env": "5.0.5",
+    "my-logic": "1.0.0",
+    "my-shared": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "my-shared",
+  "version": "1.0.0",
+
+  "dependencies": {
+    "cross-env": "5.0.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
