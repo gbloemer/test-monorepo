@@ -1,15 +1,8 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "./dist",
-    "rootDir": "./src",
     "esModuleInterop": true,
-    "baseUrl": "./src",
-    "paths": {
-      "@routes/*": ["./routes/*"],
-      "@my-logic/*": ["../../my-logic/src/*"],
-      "@my-shared/*": ["../../my-shared/src/*"]
-    }
+    "outDir": "./dist"
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]

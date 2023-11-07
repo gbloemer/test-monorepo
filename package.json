@@ -5,10 +5,10 @@
   ],
   "scripts": {
     "build-shared": "tsc -p packages/my-shared",
-    "build-logic": "yarn build-shared && tsc -p packages/my-logic",
-    "build-api": "yarn build-logic && tsc -p packages/my-api",
+    "build-logic": "tsc -p packages/my-logic",
+    "build-api": "tsc -p packages/my-api",
     "start-api": "yarn build-api && node packages/my-api/dist/index.js",
-    "clear": "rm -rf packages/my-shared/dist && rm -rf packages/my-logic/dist && rm -rf packages/my-api/dist"
+    "clear": "rm -rf packages/**/dist"
   },
   "volta": {
     "node": "19.9.0"
